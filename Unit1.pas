@@ -7,7 +7,7 @@ type
   TForm1 = class(TForm)
     Timer1: TTimer;
     Timer2: TTimer;
-    Edit1: TEdt;
+    Edit1: TEdit;
     Edit2: TEdit;
     Label1: TLabel;
     Label2: TLabel;
