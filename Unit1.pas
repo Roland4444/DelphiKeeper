@@ -19,11 +19,8 @@ type
     procedure Timer2Timer(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private
-    { Private declarations }
   public
-    { Public declarations }
   end;
-
 var
   Form1: TForm1;
   implementation
@@ -50,7 +47,6 @@ begin
   Timer2.Enabled := True;
   sndPlaySound('start.wav', SND_NODEFAULT);
   Label3.Caption := 'Relaxing '+IntToStr(trunc(Timer2.Interval/1000))+' sec';
-
 end;
 
 procedure TForm1.Timer2Timer(Sender: TObject);
