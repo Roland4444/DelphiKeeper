@@ -1,18 +1,13 @@
 unit Unit1;
-
-
-
 interface
-
 uses
   MMSystem, Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
-
 type
   TForm1 = class(TForm)
     Timer1: TTimer;
     Timer2: TTimer;
-    Edit1: TEdit;
+    Edit1: TEdt;
     Edit2: TEdit;
     Label1: TLabel;
     Label2: TLabel;
@@ -31,9 +26,7 @@ type
 
 var
   Form1: TForm1;
-
-implementation
-
+  implementation
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
